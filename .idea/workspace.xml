@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59bb4ff8-d43b-4c24-b2dc-195ae75d0add" name="Default Changelist" comment="" />
+    <list default="true" id="59bb4ff8-d43b-4c24-b2dc-195ae75d0add" name="Default Changelist" comment="项目上传" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +14,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,11 +33,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1zlUICbZ2GMH9iIDJikhmbqe4Bv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DatabaseDriversLRU" value="mysql&#10;oracle" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -132,22 +143,34 @@
       <workItem from="1634722090495" duration="1242000" />
       <workItem from="1634729395295" duration="4228000" />
       <workItem from="1634734023060" duration="956000" />
-      <workItem from="1634774920611" duration="20299000" />
+      <workItem from="1634774920611" duration="20725000" />
     </task>
+    <task id="LOCAL-00001" summary="项目上传">
+      <created>1634802693144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634802693144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="786" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634780932317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="786" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1634780932317" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1634722466803">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1634802477269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1634722466803" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1634802477269" />
     <state width="1675" height="304" key="GridCell.Tab.0.bottom" timestamp="1634802319787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,10 +203,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1675" height="304" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1634802438617">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1634802565566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1634802438617" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1634802565566" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1634802830553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1634802830553" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1634777197778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
