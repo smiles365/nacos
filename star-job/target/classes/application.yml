@@ -1,0 +1,10 @@
+server:
+  port: 5566
+
+spring:
+  application:
+    name: star-job
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
