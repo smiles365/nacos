@@ -14,6 +14,7 @@
         <module>star-people2</module>
         <module>star-people3</module>
         <module>star-job</module>
+        <module>nacos-config</module>
     </modules>
 
     <!--打包方式为pom-->
