@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="59bb4ff8-d43b-4c24-b2dc-195ae75d0add" name="Default Changelist" comment="项目上传" />
+    <list default="true" id="59bb4ff8-d43b-4c24-b2dc-195ae75d0add" name="Default Changelist" comment="添加配置中心">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +41,8 @@
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,7 +57,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1zlUICbZ2GMH9iIDJikhmbqe4Bv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,16 +73,24 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/star-job/src/main/java/com/star" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\btkgcsja892\Desktop\product\nacos-parent\nacos-config\src\main\resources" />
+      <recent name="D:\Users\btkgcsja892\Desktop\product\nacos-parent\nacos-config\src\main\java\com\star" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\btkgcsja892\Desktop\product\nacos-parent" />
     </key>
@@ -68,7 +102,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PeopleApp3">
+  <component name="RunManager" selected="Spring Boot.SentinelApp">
+    <configuration name="ConfigApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.star.ConfigApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JobApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="star-job" />
       <extension name="coverage">
@@ -78,19 +125,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.star.JobApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PeopleApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="star-people" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.star.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.star.PeopleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,12 +155,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.star.SentinelApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelApp" />
+        <item itemvalue="Spring Boot.ConfigApp" />
         <item itemvalue="Spring Boot.JobApp" />
         <item itemvalue="Spring Boot.PeopleApp2" />
         <item itemvalue="Spring Boot.PeopleApp3" />
-        <item itemvalue="Spring Boot.PeopleApp" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +191,9 @@
       <workItem from="1634722090495" duration="1242000" />
       <workItem from="1634729395295" duration="4228000" />
       <workItem from="1634734023060" duration="956000" />
-      <workItem from="1634774920611" duration="20725000" />
+      <workItem from="1634774920611" duration="22784000" />
+      <workItem from="1634889232959" duration="6529000" />
+      <workItem from="1635121700032" duration="5967000" />
     </task>
     <task id="LOCAL-00001" summary="项目上传">
       <created>1634802693144</created>
@@ -152,17 +202,55 @@
       <option name="project" value="LOCAL" />
       <updated>1634802693144</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="项目上传">
+      <created>1634802902480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634802902480</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加配置中心">
+      <created>1634895547571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634895547571</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加配置中心">
+      <created>1634895561400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634895561400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目上传" />
+    <MESSAGE value="添加配置中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加配置中心" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1635123008403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1635123008403" />
     <state x="786" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634780932317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -171,46 +259,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1634802477269" />
-    <state width="1675" height="304" key="GridCell.Tab.0.bottom" timestamp="1634802319787">
+    <state width="1675" height="187" key="GridCell.Tab.0.bottom" timestamp="1635124960401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state width="1675" height="304" key="GridCell.Tab.0.center" timestamp="1634802319787">
+    <state width="1675" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635124960401" />
+    <state width="1675" height="187" key="GridCell.Tab.0.center" timestamp="1635124960401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state width="1675" height="304" key="GridCell.Tab.0.left" timestamp="1634802319787">
+    <state width="1675" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635124960401" />
+    <state width="1675" height="187" key="GridCell.Tab.0.left" timestamp="1635124960401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state width="1675" height="304" key="GridCell.Tab.0.right" timestamp="1634802319787">
+    <state width="1675" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635124960401" />
+    <state width="1675" height="187" key="GridCell.Tab.0.right" timestamp="1635124960401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state width="1675" height="304" key="GridCell.Tab.1.bottom" timestamp="1634802319787">
+    <state width="1675" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635124960401" />
+    <state width="1675" height="187" key="GridCell.Tab.1.bottom" timestamp="1635124960401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="304" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state width="1675" height="304" key="GridCell.Tab.1.center" timestamp="1634802319787">
+    <state width="1675" height="187" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635124960401" />
+    <state width="1675" height="187" key="GridCell.Tab.1.center" timestamp="1635124960401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="304" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state width="1675" height="304" key="GridCell.Tab.1.left" timestamp="1634802319787">
+    <state width="1675" height="187" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635124960401" />
+    <state width="1675" height="187" key="GridCell.Tab.1.left" timestamp="1635124960401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="304" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state width="1675" height="304" key="GridCell.Tab.1.right" timestamp="1634802319787">
+    <state width="1675" height="187" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635124960401" />
+    <state width="1675" height="187" key="GridCell.Tab.1.right" timestamp="1635124960401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="304" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1634802319787" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1634802565566">
+    <state width="1675" height="187" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635124960401" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1634895674982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1634802565566" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1634802830553">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1634895674982" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1634895735265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1634802830553" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1634895735265" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1634777197778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,9 +307,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="859" y="391" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1040@0.0.1920.1040" timestamp="1634780450453" />
-    <state x="334" y="180" key="new project wizard" timestamp="1634775514097">
+    <state x="334" y="180" key="new project wizard" timestamp="1635122193712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1634775514097" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1635122193712" />
   </component>
 </project>

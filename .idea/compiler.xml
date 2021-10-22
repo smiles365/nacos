@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nacos-config" />
         <module name="star-job" />
-        <module name="star-people" />
         <module name="star-people2" />
-        <module name="star-people3" />
+        <module name="nacos-sentinel" />
+        <module name="star-people" />
         <module name="star-people (1)" />
+        <module name="star-people3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="nacos-config" target="1.8" />
       <module name="nacos-parent" target="1.8" />
+      <module name="nacos-sentinel" target="1.8" />
       <module name="star-job" target="1.8" />
       <module name="star-people" target="1.8" />
       <module name="star-people (1)" target="1.8" />
@@ -24,6 +28,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nacos-config" options="-parameters" />
+      <module name="nacos-sentinel" options="-parameters" />
       <module name="star-job" options="-parameters" />
       <module name="star-people" options="-parameters" />
       <module name="star-people (1)" options="-parameters" />

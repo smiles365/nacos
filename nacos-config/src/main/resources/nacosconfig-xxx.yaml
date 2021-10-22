@@ -1,0 +1,10 @@
+server:
+  port: 7780
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  application:
+    name: nacos-config
+name: 7780哈哈哈哈哈嘎嘎嘎嘎嘎

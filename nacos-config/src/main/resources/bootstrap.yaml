@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        group: DEFAULT_GROUP
+        prefix: nacosconfig #默认为  ${application.name}
+        file-extension: yaml #内容的数据格式，只支持yaml properties
+        server-addr: localhost:8848
+
+  application:
+    name: nacosconfig
+  profiles:
+    active: test  #当前环境
+
+

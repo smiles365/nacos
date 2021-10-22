@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/nacos-config/nacos-config.iml" filepath="$PROJECT_DIR$/nacos-config/nacos-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/nacos-parent.iml" filepath="$PROJECT_DIR$/.idea/nacos-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-sentinel/nacos-sentinel.iml" filepath="$PROJECT_DIR$/nacos-sentinel/nacos-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/star-job/star-job.iml" filepath="$PROJECT_DIR$/star-job/star-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/star-people/star-people.iml" filepath="$PROJECT_DIR$/star-people/star-people.iml" />
       <module fileurl="file://$PROJECT_DIR$/star-people3/star-people (1).iml" filepath="$PROJECT_DIR$/star-people3/star-people (1).iml" />

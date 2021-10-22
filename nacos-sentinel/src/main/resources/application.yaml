@@ -1,0 +1,19 @@
+server:
+  port: 1234
+
+spring:
+  application:
+    name: nacos-sentinel
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    sentinel:
+      #开启sentinel 默认为true开启状态
+      enabled: true
+      #连接到sentinel
+      transport:
+        dashboard: localhost:8888
+        #sentinel和dashboard通信的端口
+        port: 8719
